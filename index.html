@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>CyberPack | Otimização Windows</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #05000a, #0b0014);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* EFEITO NEON */
+.neon {
+    color: #00fff7;
+    text-shadow: 0 0 5px #00fff7, 0 0 15px #00fff7;
+}
+
+/* ANIMAÇÃO */
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 1.2s forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+header h1 {
+    font-size: 52px;
+}
+
+header p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+/* BOTÕES */
+.buttons {
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 16px 38px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.btn-download {
+    background: linear-gradient(45deg, #00fff7, #00c2ff);
+    color: #000;
+    box-shadow: 0 0 20px #00fff7;
+}
+
+.btn-download:hover {
+    transform: scale(1.08);
+}
+
+.btn-youtube {
+    background: linear-gradient(45deg, #ff005d, #ff0033);
+    color: white;
+    box-shadow: 0 0 20px #ff005d;
+}
+
+.btn-youtube:hover {
+    transform: scale(1.08);
+}
+
+/* SEÇÕES */
+section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.feature {
+    background: rgba(255,255,255,0.04);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,255,247,0.3);
+    box-shadow: 0 0 15px rgba(0,255,247,0.15);
+    transition: 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 0 25px rgba(0,255,247,0.6);
+}
+
+/* PRINTS */
+.prints {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.prints img {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #00fff7;
+    box-shadow: 0 0 20px rgba(0,255,247,0.4);
+    transition: 0.3s;
+}
+
+.prints img:hover {
+    transform: scale(1.06);
+}
+
+/* FOOTER */
+footer {
+    background: #020005;
+    text-align: center;
+    padding: 35px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header class="fade">
+    <h1 class="neon">⚡ CyberPack</h1>
+    <p>Otimização extrema para Windows • Mais FPS • Menos Lag</p>
+
+    <div class="buttons">
+        <a href="SEU_LINK_DE_DOWNLOAD" class="btn btn-download" download>
+            ⬇️ Download do Pack
+        </a>
+        <a href="https://www.youtube.com/SEU_CANAL" target="_blank" class="btn btn-youtube">
+            ▶️ Canal no YouTube
+        </a>
+    </div>
+</header>
+
+<section class="fade">
+    <h2 class="neon">🚀 Benefícios</h2>
+    <div class="features">
+        <div class="feature">✔️ Aumento real de FPS</div>
+        <div class="feature">✔️ Redução de input lag</div>
+        <div class="feature">✔️ Sistema mais leve</div>
+        <div class="feature">✔️ Otimização para jogos competitivos</div>
+    </div>
+</section>
+
+<section class="fade">
+    <h2 class="neon">📸 Prints do Pack</h2>
+   <div class="prints">
+    <img src="valorant.png" alt="Menu de otimização Valorant">
+    <img src="cs2.png" alt="Menu de otimização CS2">
+    <img src="pastas.png" alt="Pastas do Pack de Otimização">
+</div>
+
+</section>
+
+<footer>
+    © 2026 • CyberPack • GitHub Pages
+</footer>
+
+</body>
+</html>
